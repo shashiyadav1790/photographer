@@ -13,7 +13,7 @@ function Name() {
             className="rounded-lg"
           />
         </div>
-        <h2 className="text-4xl font-bold mt-5">Hi, I'm Ritik</h2>
+        <h2 className="text-4xl font-bold mt-5">Hi, Im Ritik</h2>
         <p className="mt-3 text-lg">I capture moments that tell your story.</p>
       </div>
     </div>
