@@ -16,11 +16,11 @@ function About() {
         {/* Left Section - Text */}
         <div className="w-full md:w-2/3 text-gray-700 text-sm leading-relaxed">
           <p>
-            Hello! I'm <span className="font-semibold">Ritik</span>, a dedicated and enthusiastic photographer with a keen eye for capturing life’s most meaningful moments through the lens. My passion lies in creating timeless visuals — whether it's portraits, landscapes, events, or candid street photography
+            Hello! Im <span className="font-semibold">Ritik</span>, a dedicated and enthusiastic photographer with a keen eye for capturing lifes most meaningful moments through the lens. My passion lies in creating timeless visuals — whether its portraits, landscapes, events, or candid street photography
           </p>
           <br />
           <p>
-          Currently pursuing my Bachelor's degree in Computer Applications (BCA) with a specialization in Computer Science & IT at Aisect University, I blend my technical background with artistic storytelling to bring a unique perspective to my work.
+          Currently pursuing my Bachelors degree in Computer Applications (BCA) with a specialization in Computer Science & IT at Aisect University, I blend my technical background with artistic storytelling to bring a unique perspective to my work.
           </p>
           <br />
           <p>
