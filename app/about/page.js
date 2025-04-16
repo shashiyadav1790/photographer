@@ -14,7 +14,7 @@ function About() {
       {/* Content */}
       <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10">
         {/* Left Section - Text */}
-        <div className="w-full md:w-2/3 text-gray-700 text-sm leading-relaxed">
+        <div className="w-full md:w-2/3 text-gray-700 text-md leading-relaxed">
           <p>
             Hello! Im <span className="font-semibold">Ritik</span>, a dedicated and enthusiastic photographer with a keen eye for capturing lifes most meaningful moments through the lens. My passion lies in creating timeless visuals — whether its portraits, landscapes, events, or candid street photography
           </p>

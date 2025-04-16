@@ -1,4 +1,5 @@
- import Image from "next/image";
+"use client";
+import Image from "next/image";
 // import silver from "."
 // import gold from ".app/public/gold.jpg"
 // import diamond from "./app/public/diamond1.jpg"
@@ -7,9 +8,9 @@ function Service() {
     return (
     <div className="container mx-auto px-6 py-5 ">
         <div className="flex items-center justify0center gap-4 mb-5">
-            <div className="flex-grow border-t border-gray-400"></div>
-            <h2 className="text-2xl text-center">Service</h2>
-            <div className="flex-grow border-t border-gray-400"></div>
+        <div className=" border-gray-400 bg-gray-100 w-screen h-10 "></div>
+            {/* <h2 className="text-2xl text-center">Service</h2>
+            <div className="flex-grow border-t border-gray-400"></div>  */}
         </div>
         <div className="flex flex-col md:flex-row justify-center items-start p-5 gap-6">
             <div className="flex flex-col w-full md:w-1/3 p-4">
@@ -17,6 +18,7 @@ function Service() {
             </div>
             <div className="w-full md:w-2/3 p-4 ">
                 {/* <div className="flex-grow border-t border-gray-400 mb-3"></div> */}
+          
                 <span className="flex  justify-between items-center">
                 <p className="text-2xl text-green-800">SILVER</p>
                 <p>USD $100 - USD $150</p>

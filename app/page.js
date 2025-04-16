@@ -5,6 +5,7 @@ import About from "./about/page.js";
 import Experience from "./expirence/page.js";
 import Service from "./service/page.js";
 import Contact from "./contact/page.js";
+import Happy from "./happy/page.js";
 
 function Page() {
 
@@ -13,10 +14,12 @@ function Page() {
     <div >
      
     <Name/>
+    <Service/>
     <About/>
     <Experience/>
-    <Service/>
+    <Happy/>
    <Contact/> 
+
 
   </div>
    );

@@ -59,12 +59,14 @@ function Navbar() {
 
         {/* Nav Links (for larger screens) */}
         <div className="hidden md:flex gap-8 text-md font-medium text-gray-700">
-          <Link href="/" className="hover:text-green-800 transition">Home</Link>
-          <Link href="/service" className="hover:text-green-800 transition">Service</Link>
-          <Link href="/expirence" className="hover:text-green-800 transition">Experience</Link>
-          <Link href="/contact" className="hover:text-green-800 transition">Contact</Link>
-          <Link href="/about" className="hover:text-green-800 transition">About</Link>
+          <Link href="/" className="hover:text-green-800  transition hover-text-shadow">Home</Link>
+          <Link href="/service" className="hover:text-green-800 transition hover-text-shadow">Service</Link>
+          <Link href="/expirence" className="hover:text-green-800 transition hover-text-shadow">Experience</Link>
+          <Link href="/contact" className="hover:text-green-800 transition hover-text-shadow">Contact</Link>
+          <Link href="/about" className="hover:text-green-800 transition hover-text-shadow">About</Link>
         </div>
+
+        <h2 className="text-sm p-5 text-bold text-center text-green-800 hover:text-green-300  items-center justify-center" style={{ fontStyle: 'italic', fontSize: '1.3rem', letterSpacing: "4px",textShadow: "2px 2px 5px gray" }}>HANSH Photography</h2>
 
         {/* Hamburger Icon (visible on mobile) */}
                 <div className="md:hidden" onClick={toggleMenu}>
@@ -75,9 +77,12 @@ function Navbar() {
           </button>
         </div>
 
+      
+       
+       
 
         {/* Mobile Menu (hidden by default, toggled by hamburger icon) */}
-        <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-20 left-0 w-full bg-white shadow-lg py-4 px-6`}>
+        <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} flex flex-col gap-4 absolute top-20 left-0 w-full bg-white shadow-lg py-4 px-6`}>
         <Link href="/" className="hover:text-green-800 transition">Home</Link>
           <Link href="/service" className="hover:text-green-800 transition">Service</Link>
           <Link href="/expirence" className="hover:text-green-800 transition">Experience</Link>
@@ -85,11 +90,7 @@ function Navbar() {
           <Link href="/about" className="hover:text-green-800 transition">About</Link>
         </div>
 
-        {/* CTA Buttons */}
-        <div className="flex gap-4">
-          
-          <Link href="/contact" className="border px-4 py-1 rounded-xl hover:bg-gray-300 transition">Hire me</Link>
-        </div>
+       
       </div>
     </div>
   );

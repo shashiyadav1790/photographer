@@ -19,11 +19,11 @@ function Experience() {
           </div>
   
           {/* Vertical Line (only on medium+ screens) */}
-          <div className="hidden md:block h-50 border-l-2 border-gray-300 mx-4"></div>
+          <div className="hidden md:block h-65 border-l-2 border-gray-300 mx-4"></div>
   
           {/* Right Section */}
           <div className="w-full md:w-2/3 p-4">
-            <ul className="list-disc pl-6 text-sm text-gray-700 space-y-2">
+            <ul className="list-disc pl-6 text-md text-gray-700 space-y-2">
               <li>
               Captured and curated compelling imagery for events, portraits, and lifestyle sessions with a strong focus on composition and detail.
               </li>
