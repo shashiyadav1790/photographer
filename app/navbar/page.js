@@ -66,7 +66,9 @@ function Navbar() {
           <Link href="/about" className="hover:text-green-800 transition hover-text-shadow">About</Link>
         </div>
 
-        <h2 className="text-sm p-5 text-bold text-center text-green-800 hover:text-green-300  items-center justify-center" style={{ fontStyle: 'italic', fontSize: '1.3rem', letterSpacing: "4px",textShadow: "2px 2px 5px gray" }}>HANSH Photography</h2>
+        <Link href="/">
+        <h2 className="text-sm p-5 text-bold text-center text-green-800 hover:text-gray-800  items-center justify-center" style={{ fontStyle: 'italic', fontSize: '1.3rem', letterSpacing: "4px",textShadow: "2px 2px 5px gray" }}>HANSH Photography</h2>
+        </Link>
 
         {/* Hamburger Icon (visible on mobile) */}
                 <div className="md:hidden" onClick={toggleMenu}>

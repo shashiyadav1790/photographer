@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 // import silver from "."
 // import gold from ".app/public/gold.jpg"
 // import diamond from "./app/public/diamond1.jpg"
@@ -48,9 +49,10 @@ function Service() {
                     Beautifully edited photos
                 </li>
                 </ul>
-                <button className="w-full sm:w-40 md:w-40 lg:w-56 px-2 py-1 mt-3 text-white bg-green-800 text-sm sm:text-base md:text-lg text-center rounded hover:bg-green-700 transition">
+                <Link href="/contact"> <button className="w-full sm:w-40 md:w-40 lg:w-56 px-2 py-1 mt-3 text-white bg-green-800 text-sm sm:text-base md:text-lg text-center rounded hover:bg-green-700 transition">
                 Book
-                </button>
+                </button></Link>
+               
             </div>
         </div>
 
@@ -88,9 +90,10 @@ function Service() {
                     Beautifully edited photos
                 </li>
                 </ul>
-                <button className="w-full sm:w-40 md:w-40 lg:w-56 px-2 py-1 mt-3 text-white bg-green-800 text-sm sm:text-base md:text-lg text-center rounded hover:bg-green-700 transition">
+                <Link href="/contact"><button className="w-full sm:w-40 md:w-40 lg:w-56 px-2 py-1 mt-3 text-white bg-green-800 text-sm sm:text-base md:text-lg text-center rounded hover:bg-green-700 transition">
                 Book
-                </button>
+                </button></Link>
+                
             </div>
             <div className="flex flex-col w-full md:w-1/3 p-4">
             <Image src="/gold.jpg" width={300} height={300}  alt="image"/>
@@ -135,9 +138,12 @@ function Service() {
                     Beautifully edited photos
                 </li>
                 </ul>
+                <Link href="/contact">
                 <button className="w-full sm:w-40 md:w-40 lg:w-56 px-2 py-1 mt-3 text-white bg-green-800 text-sm sm:text-base md:text-lg text-center rounded hover:bg-green-700 transition">
                 Book
                 </button>
+                </Link>
+                
             </div>
         </div>
 
