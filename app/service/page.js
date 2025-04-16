@@ -112,7 +112,7 @@ function Service() {
                 {/* <div className="flex-grow border-t border-gray-400 mb-3"></div> */}
                 <span className="flex  justify-between items-center">
                 <p className="text-2xl text-green-800">DIAMOND</p>
-                <p>USD $100 - USD $150</p>
+                <p>USD $100 </p>
                 </span>
                 
                 <div className="flex-grow border-t border-gray-400 mt-3"></div>
