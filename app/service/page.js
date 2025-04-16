@@ -59,6 +59,9 @@ function Service() {
         <div className="flex-grow border-t border-gray-600"></div>
 
         <div className="flex flex-col md:flex-row justify-center items-start p-5 gap-6">
+        <div className="flex flex-col w-full md:w-1/3 p-4">
+            <Image src="/gold.jpg" width={300} height={300}  alt="image"/>
+            </div>
         <div className="w-full md:w-2/3 p-4 ">
                 {/* <div className="flex-grow border-t border-gray-400 mb-3"></div> */}
                 <span className="flex  justify-between items-center">
@@ -95,9 +98,7 @@ function Service() {
                 </button></Link>
                 
             </div>
-            <div className="flex flex-col w-full md:w-1/3 p-4">
-            <Image src="/gold.jpg" width={300} height={300}  alt="image"/>
-            </div>
+            
         </div>
 
 
