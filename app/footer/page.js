@@ -21,7 +21,7 @@ function Footer() {
             <a href="#" className="hover:text-green-400"><FaLinkedinIn /></a>
             </div>
 
-            <p>© 2025 Hansh Photography. All rights reserved.</p>
+            <p className='text-center'>© 2025 Hansh Photography. All rights reserved.</p>
 
             <p className="justify-center text-center mt-2 text-sm mb-3 text-gray-800">
       Developed with ❤️ by <a href="https://shashiyadav.vercel.app" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:underline">Shashi Surya</a> — MERN Stack Developer
